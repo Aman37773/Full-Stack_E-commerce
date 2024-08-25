@@ -1,0 +1,214 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.navbar{
+  font-size: 17px;
+  font-family: 'Playfair Display',sans-serif;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px;
+  --webkit-box-shadow:0 8px 6px -6px gray;
+  border-bottom: 0.1px solid gray !important;
+}
+
+.nav-link:hover{
+  border-bottom: 1px solid black;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 2px !important;
+}
+
+.footer{
+padding:25px;
+background-color: rgb(63, 59, 59);
+color: white;
+}
+
+.footer a{
+  color:white;
+  padding:20px;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  color:antiquewhite;
+  border-bottom: 1px solid wheat;
+}
+
+
+/* page not found */
+.pnf{
+  display:flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading{
+  font-weight: normal;
+}
+
+.pnf-btn{
+  color:black;
+  border:1px solid black;
+  text-decoration:none;
+  padding:10px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.pnf-btn:hover{
+  scale: 1.1;
+  background-color: bisque;
+}
+
+/* contact us */
+.contact{
+  height:35vw !important;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.contact img{
+  border-radius: 20px;
+  margin-left: 2vw;
+  width:35vw;
+  margin-left: 3vw;;
+}
+
+.contact img:hover{
+  scale: 1.01;
+}
+
+.contact-right{
+  text-transform: uppercase;
+  font-size:1.5vw;
+  margin-left: 5vw;
+}
+
+.banner,.query,.help,.toll-free,.phone{
+  margin:20px;
+  letter-spacing: 3px;
+}
+
+.banner{
+  background-color: black;
+  color: white;
+  width:30%;
+  text-align: center;
+  padding: 10px;
+}
+
+/* about page */
+.about img{
+  width:65vh;
+margin-left: 2vw;
+border-radius: 20px;
+}
+.about img:hover{
+scale: 1.01;
+}
+.about{
+  height: 35vw !important;
+  display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.about-con{
+  font-size: 1.5vw;
+  width:50%;
+  margin-left: 3vw;
+  text-align: center;
+}
+
+/* //policy */
+.policy{
+  height:35vw !important;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.policy img{
+width:35%;
+border-radius: 20px;
+}
+
+.policy-con{
+font-size: 1.5vw;
+width:50%;
+margin-left: 30px;
+text-align: center;;
+}
+
+
+
+/* //login  register*/
+.login,.register{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ min-height:35vw !important;
+}
+.forgot_pass,.reset_pass{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ min-height:35vw !important;
+}
+.login h1,.forgot_pass h1 ,.reset_pass h1, .register h1{
+  margin:2vw;
+}
+ 
+/* //spinner */
+.spinner{
+  display:flex;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* //profile-image */
+.profile-image{
+  width:3vw;
+  height:3vw;
+  border-radius: 2vw;
+}
+
+.product-link{
+  text-decoration: none;
+  color: black;
+  margin: 1vw;
+  box-shadow: 2px 2px 12px -1px;
+}
+.product-link:hover{
+  scale: 1.01;
+}
+.product-image{
+  height:11vw;
+  box-shadow: 2px 2px 5px -1px;
+}
+.card{
+  box-shadow: 2px 2px 12px -1px;
+}
+.card:hover{
+  scale: 1.01;
+}
